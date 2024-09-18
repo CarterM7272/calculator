@@ -36,7 +36,7 @@ for i in option:
     button_dict[i] = ttk.Button(window, text=i, command= clear_input)
     button_dict[i].pack()
   elif i == "+":
-    button_dict[i] = ttk.Button(window, text=i, command= sum_input )
+    button_dict[i] = ttk.Button(window, text=i, command= clear_input )
     button_dict[i].pack()
   else:
     def func(x=i):
